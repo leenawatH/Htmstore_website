@@ -1,3 +1,4 @@
+
 *{
     box-sizing: border-box;
 }
@@ -6,18 +7,24 @@ body{
     background: linear-gradient(
         to right,
         #29684A 0%,
-        #29684A 50%,
-        #FFEFD2 50%,
+        #29684A 60%,
+        #FFEFD2 60%,
         #FFEFD2 100%
     );
     background-color: #29684A;
     font-family: 'Kanit', sans-serif;
     color: white;
 }
+
+/* navbar */
 .Navbar{
     margin-top:1%;
     font-size: 13pt;
     white-space: nowrap;
+}
+.Navbar a{
+    color: white;
+    text-decoration: none;
 }
 .left-Nav{
     display: inline;
@@ -43,4 +50,33 @@ body{
     float: right;
     margin-right: 3%;
     color: black;
+}
+
+/* Top-left-container */
+
+.top-container-left{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.top-container-left a{
+    color: white;
+    text-decoration: none;
+}
+.top-container-left .title-eng{
+    color: #FFE652;
+    font-size: 15pt;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+.top-container-left .title{
+    font-size: 60pt;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.top-container-left .description{
+    margin-top: 0%;
+}
+.top-container-left .btn{
+    margin-left: 10%;
+    margin-top: 2%;
 }
