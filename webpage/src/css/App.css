@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin : 0;
+    background: linear-gradient(
+        to right,
+        #29684A 0%,
+        #29684A 50%,
+        #FFEFD2 50%,
+        #FFEFD2 100%
+    );
+    background-color: #29684A;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+}
+.Navbar{
+    margin-top:1%;
+    font-size: 13pt;
+    white-space: nowrap;
+}
+.left-Nav{
+    display: inline;
+    margin-left: 3%;
+    
+}
+.mid-Nav{
+    display: inline;
+    margin-left: 5%;
+}
+.right-Nav{
+    display: inline;
+    margin-right: 3%;
+    color: black;
+}
+.inNav{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    
+}
+.imginright{
+    display: inline;
+    float: right;
+    margin-right: 3%;
+    color: black;
+}
