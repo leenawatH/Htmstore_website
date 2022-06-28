@@ -141,7 +141,7 @@ body{
 .list_of_partnership{
     margin-left: 0%;
     margin-right: 0%;
-    background-color: rgb(121, 135, 135);
+    background-color: #3e6b68;
 }
 .list{
     margin-left: 8%;
@@ -172,21 +172,44 @@ body{
 .footer{
     background-color: #313A48;
     margin-top: 0%;
-    height: 400px;
+    height: 300px;
 }
-.footer .top{
-    margin-left: 10%;
+.footer .footer-top{
+    margin-left: 15%;
     padding-top: 3%;
 }
-.footer .top .left{
-    margin: 0%;
-    padding: 0%;
+.footer .footer-top .footer-top-data{
+    float: left;
+    width: 33.33%;
 }
-.footer .top .left .logo{
+
+.a2{
+    margin-top: 1%;
+}
+
+.footer .footer-top  .logo{
     margin-right: 3%;
     
 }
-.footer .top .left a{
+.footer .footer-top a{
     font-size: 18pt;
     
+}
+.footer .footer-top .description{
+    margin-top: 3%;
+    font-size: 10pt;
+    
+}
+.footer .footer-product-type{
+    padding-bottom: 5%;
+}
+.footer .list_product{
+    color: rgb(178, 178, 178);
+}
+.footer .footer-logo{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.footer .footer-email{
+    margin-top: 3%;
 }
