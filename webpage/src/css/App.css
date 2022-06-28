@@ -147,6 +147,7 @@ body{
     margin-left: 8%;
     margin-right: 8%;
     padding-top: 5%;
+    padding-bottom: 3%;
 }
 .list a{
     font-size: 30pt;
@@ -165,4 +166,27 @@ body{
     float: left;
     padding-right: 2%;
     width: 20%;
+}
+/* footer */
+
+.footer{
+    background-color: #313A48;
+    margin-top: 0%;
+    height: 400px;
+}
+.footer .top{
+    margin-left: 10%;
+    padding-top: 3%;
+}
+.footer .top .left{
+    margin: 0%;
+    padding: 0%;
+}
+.footer .top .left .logo{
+    margin-right: 3%;
+    
+}
+.footer .top .left a{
+    font-size: 18pt;
+    
 }
