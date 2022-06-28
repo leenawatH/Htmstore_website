@@ -4,7 +4,7 @@ import '../css/App.css';
 function Navbar(){
     return <header className='Navbar'>
                 <div className='left-Nav'>
-                    <img src = {require('../img/logo/1x/logo.png')} width = '3%'/>
+                    <img src = {require('../img/logo/logo.png')} width = '3%'/>
                 </div>
                 <div className='mid-Nav'>
                     <a className='inNav'>Home</a>
